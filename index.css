@@ -1,0 +1,113 @@
+body {
+    background:url(https://wallpapercave.com/wp/wp4047726.jpg);
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: .9
+    }
+  }
+
+#formDiv {
+    position: absolute;
+    margin: auto;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    border: 3px solid black;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    border-radius: 0%;
+    text-align: center;
+    vertical-align: center;
+    color: black;
+    -webkit-text-stroke: .2px black;
+    background-color: white;
+    opacity: .9;
+    border-radius: 15px 15px 15px 15px;
+    animation: 1s ease 0s 1 fadeIn;
+    
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+img {
+    padding-top: 50px;
+    max-width: 150px;
+    max-height: 100px;
+    transition:all 0.3s ease;
+}
+
+img:hover {
+    opacity: 100%;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition:all 0.3s ease;
+}
+
+#todo-list > img, h2, h4, button {
+    display: inline;
+}
+
+h1 {
+    margin: 2%;
+}
+
+h2, h4, input[type=checkbox] {
+    line-height: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%);
+    
+}
+
+input[type=checkbox] {
+    right: 50px;
+}
+
+h2 {
+    left: 20px;
+}
+
+h4 {
+    left: 30px;
+}
+
+input {
+    border-radius: 5%;
+}
+
+#deleteButton {
+    background-color:red;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    position: relative;
+    bottom: 50%;
+    display: inline;
+}
+
+button {
+    opacity: 0.8;
+    transition:all 0.3s ease;
+    font-size: 10px;
+}
+
+button:hover {
+    opacity: 1;
+    border-radius: 20%;
+    transition: all .3s ease
+}
